@@ -33,7 +33,6 @@ print(texto)
 print(texto2)
 print(numero)
 print(decimal)
-
 print('---------------------------------------------------------------')
 
 numero = 77  # Se sustiyo el contenido de las variables anterioremente declaradas.
@@ -92,13 +91,51 @@ print(type(numerito))
 
 numerito = float(777)
 print(type(numerito))
-
 print('---------------------------------------------------------------')
+
+# Detalles
+
+mi_texto = '"Master"'
+mi_texto2 = "en \"Python\" " # para imprimir las comillas 
+
+texto_unido = mi_texto + " " + mi_texto2
+print(texto_unido)
+
+texto_unido = mi_texto + " \n " + mi_texto2 # salto de linea
+print(texto_unido)
+
+texto_unido = mi_texto + " \t " + mi_texto2 # tabulacion 
+print(texto_unido)
+
+texto_unido = mi_texto + " \r " + mi_texto2 # borra lo que hay detras
+print(texto_unido)
+print('---------------------------------------------------------------')
+
 
 #---Operadores en python
 
+# Operadores de asignacion
+
+x = 5 # Asignación básica
+x += 3 #
+x -= 3 #  
+x *= 3 # 
+x /= 3 # 
+x //= 3 # 
+x %= 3 # 
+x **= 3 # 
+
+
 # Operadores aritmeticos
 
-suma = 2 + 4
-resta = 2 - 3
+suma = 5 + 3  # 8
+resta = 5 - 3  # 2
+multiplicacion = 5 * 3  # 15
+division = 5 / 2  # 2.5
+division_entera = 5 // 2  # 2
+modulo = 5 % 2  # 1
+exponente = 2 ** 3  # 8
+
+print(modulo)
+print('---------------------------------------------------------------')
 
