@@ -114,20 +114,7 @@ print('---------------------------------------------------------------')
 
 #---Operadores en python
 
-# Operadores de asignacion
-
-x = 5 # Asignación básica
-x += 3 #
-x -= 3 #  
-x *= 3 # 
-x /= 3 # 
-x //= 3 # 
-x %= 3 # 
-x **= 3 # 
-
-
 # Operadores aritmeticos
-
 suma = 5 + 3  # 8
 resta = 5 - 3  # 2
 multiplicacion = 5 * 3  # 15
@@ -136,6 +123,40 @@ division_entera = 5 // 2  # 2
 modulo = 5 % 2  # 1
 exponente = 2 ** 3  # 8
 
-print(modulo)
+# Operadores de comparacion(relacionales)
+5 == 5  # True
+5 != 3  # True
+5 > 3  # True
+5 < 3  # False
+5 >= 5  # True
+5 <= 3  # False
+
+# Operadores logicos
+True and False  # False
+True or False  # True
+not True  # False
+
+# Operadores de asignacion
+x = 5 # Asignación básica
+x += 3 # Suma y asigna
+x -= 3 # Resta y asigna
+x *= 3 # Multiplica y asigna
+x /= 3 # Divide y asigna
+x //= 3 # División entera y asigna
+x %= 3 # Módulo y asigna
+x **= 3 # Exponente y asigna
+
+# Operadores de pertencia
+'a' in 'hola'  # True
+'z' not in 'hola'  # True
+
+# Operadores de identidad
+x = [1, 2] # is : Devuelve True si los objetos son el mismo.
+y = x
+x is y  # True
+
+x = [1, 2] # is not : Devuelve True si los objetos no son el mismo.
+y = [1, 2]
+x is not y  # True
 print('---------------------------------------------------------------')
 
