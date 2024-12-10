@@ -18,8 +18,7 @@ print('Adios')
 print('---------------------------------------------------------------')
 
 
-'''
----Variables 
+''' Variables 
 En Python, no es necesario declarar explícitamente el tipo de una variable.
 Estas son contenedoras de informacion.
 '''
@@ -124,12 +123,12 @@ modulo = 5 % 2  # 1
 exponente = 2 ** 3  # 8
 
 # Operadores de comparacion(relacionales)
-5 == 5  # True
-5 != 3  # True
-5 > 3  # True
-5 < 3  # False
-5 >= 5  # True
-5 <= 3  # False
+igual_a = 5 == 5  # True
+diferente_de = 5 != 3  # True
+mayor_que = 5 > 3  # True
+menor_que = 5 < 3  # False
+mayor_o_igual = 5 >= 5  # True
+menor_o_igual = 5 <= 3  # False
 
 # Operadores logicos
 True and False  # False
@@ -160,3 +159,9 @@ y = [1, 2]
 x is not y  # True
 print('---------------------------------------------------------------')
 
+# Entrada y salida de datos 
+
+nombre2 =  input('Cual es tu nombre?: ') # input() para recibir datos del usuario.
+edad = input('Que edad tienes?: ') #input() guarda los datos como str
+
+print(f"Hola, {nombre2}, veo que tienes {int(edad) + 2} ")
