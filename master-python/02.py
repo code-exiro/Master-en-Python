@@ -1,10 +1,10 @@
 # Condicionales
 
-# ---if else
-# if condición:
-    # Código que se ejecuta si la condición es verdadera
-# else:
-    # Código si la condición es falsa
+'''---if else
+if condición:
+    Código que se ejecuta si la condición es verdadera
+else:
+    Código si la condición es falsa'''
 
 print('################ EJEMPLO 1 ################')
 color = input("Adivina cual es mi color favorito: ")
@@ -24,13 +24,14 @@ if edad >= 18:
 else:
     print("Eres menor de edad.")
 print('-----------------------------------------------------')
-# ---elif
-# if condición1:
-    # Código si la condición1 es verdadera
-# elif condición2:
-    # Código si la condición2 es verdadera
-# else:
-    # Código si ninguna condición es verdadera
+
+'''---elif
+if condición1:
+    Código si la condición1 es verdadera
+elif condición2:
+    Código si la condición2 es verdadera
+else:
+    Código si ninguna condición es verdadera'''
 
 print('################ EJEMPLO 3 ################')
 edad = int(input('Que edad tienes?: '))
