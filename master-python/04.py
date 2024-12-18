@@ -1,7 +1,7 @@
 '''---Ejercicio 1.
     -Crear variables una "pais" y otra "continente"
     -Mostrar su valor por pantalla (imprimir)
-    -Poner un comentario diciendo el tipo de dato '''
+    -Poner un comentario diciendo el tipo de dato'''
 
 pais = input('Escribe un pais: ')
 continente = input('Escribe un continente: ')
@@ -13,9 +13,7 @@ print(f'El pais es: {pais} \nEl continente es: {continente}') #str, str
 print('----------------------------------------------------')
 
 '''---Ejercicio 2.
-    -Escribir un script que nos muestre por pantalla todos los numeros pares del 1 al 120 '''
-
-contador = 1
+    -Escribir un script que nos muestre por pantalla todos los numeros pares del 1 al 120'''
 
 for contador in range(1,121):
     if contador % 2 == 0:
