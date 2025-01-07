@@ -1,4 +1,5 @@
-'''Ejercicio 1. Hacer un programa que tenga una lista de 8 numeros enteros y haga lo siguiente:
+'''Ejercicio 1. 
+Hacer un programa que tenga una lista de 8 numeros enteros y haga lo siguiente:
     -Recorrer la lista y mostrarla 
     -Hacer una funcion que recorra listas de numeros y devuelva un string
     -Ordenarla y mostrarla
