@@ -1,3 +1,5 @@
+# Lo recomendable y para tenerlo en cuenta es que es muy importante que las funciones retornen algo (return)
+
 def mi_funcion(nombre):
     return "Hola que tal" + nombre
 
